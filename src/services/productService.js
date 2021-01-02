@@ -1,5 +1,6 @@
 const baseUrl = process.env.REACT_APP_API_BASE_URL;
 
+// it use fech to call our Mock end point and it returns from Json
 export async function getProducts(category) {
   const response = await fetch(baseUrl + "products?category=" + category);
   if (response.ok) return response.json();
