@@ -1,5 +1,4 @@
 import React from "react";
-//Link is like an anchor tag. But React Router handles the click so the page doesn't reload
 import { Link, NavLink } from "react-router-dom";
 
 const activeStyle = {

@@ -5,9 +5,6 @@ import { useParams } from "react-router-dom";
 import PageNotFound from "./PageNotFound";
 import { Link } from "react-router-dom";
 
-//Declare state called "size" with a setter called "setSize"
-//Default size to an empty string
-//This is called "array destructuring" We're declaring a variable for each element in the returned array
 export default function Products() {
   const [size, setSize] = useState("");
   const { category } = useParams();
@@ -28,7 +25,6 @@ export default function Products() {
     );
   }
 
-  //Filter out shoes that don't have the selected size
   const filteredProducts = size
     ? products.filter((p) => p.skus.find((s) => s.size === parseInt(size)))
     : products;

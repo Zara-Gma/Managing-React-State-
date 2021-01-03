@@ -23,3 +23,22 @@
   > Create and call your own custom hook
 - Library
   > Call library (react-query, swr, etc)
+
+# Local State
+
+- Built into React component
+  > useState
+  > Class state
+  > useReducer
+  > refs
+  > Derived state in render
+  > XState
+
+# Global state (Goal share state or functions globally)
+
+- Built into React
+  > Lift state
+  > Context
+  > Redux
+  > Mobx
+  > Recoil (beta)

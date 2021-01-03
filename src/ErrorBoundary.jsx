@@ -1,14 +1,3 @@
-//https://reactjs.org/docs/error-boundaries.html
-
-// Note:
-
-// Error boundaries do not catch errors for:
-
-// Event handlers (learn more)
-// Asynchronous code (e.g. setTimeout or requestAnimationFrame callbacks)
-// Server side rendering
-// Errors thrown in the error boundary itself (rather than its children)
-
 import React from "react";
 
 export default class ErrorBoundary extends React.Component {
